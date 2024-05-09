@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  /* padding: 100px; */
+}
+.bg{
+  /* width: 600px;
+  height: 800px; */
+  background-color: #f2f4eb;
+}
+
+.girl_icon{width: 100vw;}
+.girl_icon img {
+  width: 330px;
+  height: auto;
+  position: relative;
+  z-index: 10;
+  top:-275px;
+  left: -8px;
+}
+.pentagon-container {
+  width:115%;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+.pentagon {
+  width: 200px;
+  height: 200px;
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    margin: 0 20px;
+}
+.flt_svg {
+  visibility: hidden; 
+  position: absolute;
+  width: 0px;
+  height: 0px;
+}
+
+.container
+{
+  filter: url('#flt_tag');
+}
+
+#p1{
+  left: 300px;
+  top: 400px;
+  background-color: #9dbba4;
+  transform: rotate(108deg);
+}
+#p2{
+  left: 42px;
+  top: 205px;
+  background-color: #ddd4cc;
+  transform: rotate(288deg);
+}
+#p3{
+  left: -60px;
+  top: 63px;
+  background-color: #cf8c80;
+  transform: rotate(108deg);
+}
+#p4{
+  left: -135px;
+  top: 0;
+  background-color: #b9bd76;
+  transform: rotate(287deg);
+}
+#p5{
+  left: -168px;
+  top: 63px;
+  background-color: #cf8c80;
+  transform: rotate(107deg);
+}
+#p6{
+  left: -305px;
+  top: 205px;
+  background-color: #ddd4cc;
+  transform: rotate(287deg);
+}
+#p7{
+  left: -515px;
+  top: 400px;
+  background-color: #9dbba4;
+  transform: rotate(107deg);
+}
+
+#p1_c{
+  transform: rotate(252deg);
+  position: relative;
+  left: 10px;
+  top: 60px;
+  max-width: 150px;
+}
+.pent_cont{
+  font-size: 18px;
+  
+}
+#p2_c, #p6_c{
+  transform: rotate(72deg);
+  position: relative;
+  left: 62px;
+  top: 50px;
+  max-width: 100px;
+}
+#p3_c{
+  transform: rotate(252deg);
+  position: relative;
+  left: 38px;
+  top: 45px;
+  max-width: 100px;
+}
+#p4_c{
+  transform: rotate(72deg);
+  position: relative;
+  left: 65px;
+  top: 38px;
+  max-width: 100px;
+}
+#p5_c{
+  transform: rotate(252deg);
+  position: relative;
+  left: 35px;
+  top: 45px;
+  max-width: 100px;
+}
+#p7_c{
+  transform: rotate(252deg);
+  position: relative;
+  left: 0px;
+  top: 75px;
+  max-width: 150px;
+}
+.circle {
+  border-radius: 50%;
+  background-color: #e4ca7d;
+  width: 220px;
+  height: 220px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  left: -5px;
+}
+.graph{
+  position: relative;
+  top: 263px;
+  left: 605px;
+  width: 300px;
+  height: 300px;
+  padding: 40px;
+  border-radius: 50%;
+  background: radial-gradient(#ffff 0 0) content-box,
+  conic-gradient(from -129deg ,#9dbba4 42deg ,#ddd4cc 0 76deg,#cf8c80 0 110deg,#b9bd76 0 149deg,#cf8c80 0 183deg, #ddd4cc 0 218deg,#9dbba4 0 252deg, #0000 0);
+}
+.line{
+  border: 1px dotted #444;
+  position: relative;
+  width: 90px;
+}
+#l1{
+  top: 470px;
+  left: 530px;
+  transform: rotate(340deg);
+}
+#l2{
+  top: 350px;
+  left: 527px;
+  transform: rotate(20deg);
+}
+#l3{
+  top: 262px;
+  left: 600px; 
+  transform: rotate(55deg);
+}
+#l4{
+  top: 229px;
+  left: 710px; 
+  transform: rotate(89deg);
+}
+#l5{
+  top: 265px;
+  left: 820px; 
+  transform: rotate(125deg);
+}
+#l6{
+  top: 360px;
+  left: 895px; 
+  transform: rotate(340deg);
+}
+#l7{
+  top: 460px;
+  left: 890px; 
+  transform: rotate(15deg);
+}
